@@ -1,0 +1,16 @@
+name: launcher_bootstrap
+description: Программа для предзагрузки лаунчера написанного на Java (sashok724's/KeeperJerry/Gravit) со встроенной загрузкой Java.
+version: 1.0.1
+repository: https://github.com/AuroraTeam/LauncherBootstrap
+
+environment:
+  sdk: ^3.3.4
+
+# Add regular dependencies here.
+dependencies:
+  archive: ^3.5.1
+  http: ^1.2.1
+
+dev_dependencies:
+  json_serializable: ^6.8.0
+  lints: ^3.0.0
